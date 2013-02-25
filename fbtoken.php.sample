@@ -1,0 +1,5 @@
+<?php
+
+$fbToken = "<insert token here>";
+
+?>

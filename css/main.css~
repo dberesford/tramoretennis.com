@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+body { 
+  background: url(/images/cream_dust.png) repeat 0 0;
+}
+
+h1,h2,h3,h4 { 
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/font/icomoon.eot');
+	src:url('/font/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('/font/icomoon.svg#icomoon') format('svg'),
+		url('/font/icomoon.woff') format('woff'),
+		url('/font/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+[data-icon="newspaper"]:before {
+	content: "\e000";
+}
